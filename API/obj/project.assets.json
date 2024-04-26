@@ -2982,11 +2982,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/nihadismayilzada/Desktop/AlphaCars/API/API.csproj",
+      "projectUniqueName": "/Users/nihadismayilzada/Desktop/mat-button/AlphaCars/API/API.csproj",
       "projectName": "API",
-      "projectPath": "/Users/nihadismayilzada/Desktop/AlphaCars/API/API.csproj",
+      "projectPath": "/Users/nihadismayilzada/Desktop/mat-button/AlphaCars/API/API.csproj",
       "packagesPath": "/Users/nihadismayilzada/.nuget/packages/",
-      "outputPath": "/Users/nihadismayilzada/Desktop/AlphaCars/API/obj/",
+      "outputPath": "/Users/nihadismayilzada/Desktop/mat-button/AlphaCars/API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/nihadismayilzada/.nuget/NuGet/NuGet.Config"

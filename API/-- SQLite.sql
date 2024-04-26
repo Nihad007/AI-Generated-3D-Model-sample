@@ -1,10 +1,12 @@
--- SQLite
+
+
+DELETE FROM Users WHERE UserName = 'Bob';
+DELETE FROM Users WHERE UserName = 'Tom';
+DELETE FROM Users WHERE UserName = 'Jane';
+
 INSERT INTO Users (Id, UserName)
-VALUES (1, "Bob");
+VALUES (1, "Furkan Guenercan");
 
 -- SQLite
 INSERT INTO Users (Id, UserName)
-VALUES (2, "Tom");
-
-INSERT INTO Users (Id, UserName)
-VALUES (3, "Jane");
+VALUES (2, "Nihad Ismayilzada");

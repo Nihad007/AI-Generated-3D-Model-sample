@@ -7,6 +7,8 @@ builder.Services.AddDbContext<DataContext>(opt => {
 ;
 });
 
+builder.Services.AddCors();
+
 builder.Services.AddControllers();
 
 // Add services to the container.
@@ -16,6 +18,8 @@ builder.Services.AddEndpointsApiExplorer();
 
 
 var app = builder.Build();
+
+app.UseCors(builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().WithOrigins("http://localhost:4200"));
 
 
 // // Configure the HTTP request pipeline.
@@ -39,6 +43,7 @@ var summaries = new[]
 
 
 app.MapControllers();
+
 
 app.Run();
 
